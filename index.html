@@ -58,16 +58,16 @@
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
-                    <li><a class="hover:bg-red-600">Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Pages</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a>Contact</a></li>
+                    <li><a class="hover:bg-red-600 duration-300">Home</a></li>
+                    <li><a class="hover:bg-red-600">About</a></li>
+                    <li><a class="hover:bg-red-600">Pages</a></li>
+                    <li><a class="hover:bg-red-600">Blog</a></li>
+                    <li><a class="hover:bg-red-600">Contact</a></li>
                 </ul>
             </div>
             <div class="navbar-end">
                 <i class="fa-solid fa-magnifying-glass mr-4"></i>
-                <a class="btn btn-primary">Button</a>
+                <a class="btn bg-red-500 text-white">Button</a>
             </div>
         </div>
         <!-- slideber -->
@@ -125,7 +125,7 @@
         </div>
     </header>
     <main>
-        <section class="container mx-auto mt-32 text-center">
+        <section class="container mx-auto mt-32 text-center sm:px-4">
             <h2 class="text-4xl font-extrabold">Professional Hockeys Club</h2>
             <p class="text-base mt-6  mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
                 placerat dolor. Purus urna in sit nullam proin. </p>
@@ -154,7 +154,7 @@
                 </div>
             </div>
         </section>
-        <section class="container mx-auto mt-36 text-center">
+        <section class="container mx-auto mt-36 text-center sm:px-4">
             <h2 class="text-4xl font-extrabold mb-6">Program Sections</h2>
             <p class="text-base mt-6  mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
                 placerat dolor. Purus urna in sit nullam proin. </p>
@@ -347,7 +347,7 @@
             <p class="text-base text-[#13131899] lg:w-[607px] mx-auto px-5">Dit amet consectetur. Condimentum dignissim
                 adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
         </section>
-        <section class="container mx-auto mt-24">
+        <section class="container mx-auto mt-24 sm:px-4">
             <div class="flex flex-col lg:flex-row  gap-14 justify-center">
                 <div><img class="w-[461px] h-[520px]" src="Images/11.png" alt=""></div>
                 <!-- faq part -->
@@ -398,7 +398,7 @@
                 </div>
             </div>
         </section>
-        <section class="container mx-auto mt-20 text-center">
+        <section class="container mx-auto mt-20 text-center sm:px-4">
             <h2 class="text-4xl font-extrabold mb-6">Get In Touch</h2>
             <p class="text-base text-[#13131899] lg:w-[607px] mx-auto px-5">Dit amet consectetur. Condimentum dignissim
                 adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
@@ -407,7 +407,7 @@
             <div class="flex flex-col lg:flex-row gap-40 justify-center">
                 <div class="space-y-6 border border-slate-200 rounded-2xl p-16">
                     <div>
-                        <div class="border bg-teal-50 rounded-2xl p-8  w-90" >
+                        <div class="border bg-teal-50 rounded-2xl p-8 " >
                             <img src="Images/Group 1171275317.png" alt="">
                             <p class="mt-6 text-[#13131899]">Phone Number :</p>
                             <h4 class="text-xl font-bold mt-4">(+62) 123-321-543</h4>
@@ -430,7 +430,7 @@
                 </div>
                 <!-- form part -->
                 <div>
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:px-4">
                         <div>
                             <p class="text-xl font-bold mb-4">Your Name</p>
                             <input type="text" placeholder="Enter your full name" class="input input-bordered w-full max-w-xs" />
@@ -448,7 +448,7 @@
                             <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full max-w-xs" />
                         </div>
                     </div>
-                    <div class="mt-6">
+                    <div class="mt-6 sm:px-4">
                         <p class="text-xl font-bold mb-4">Message</p>
                         <textarea placeholder="Bio" class="textarea textarea-bordered textarea-lg w-full max-w-2xl rows=10" rows="10"></textarea>
                         <button class="btn btn-block bg-[#FF4240] text-white text-xl font-bold mt-8">Send Message</button>
@@ -456,11 +456,46 @@
                 </div>
             </div>
         </section>
+        <section class="container mx-auto  text-center mt-20 mb-11 bg-slate-100 rounded-lg  py-8">
+              <h2 class="text-2xl font-extrabold mb-6">Social Media</h2>
+              <div class="flex gap-4 justify-center">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+              </div>
+        </section>
     </main>
-    <footer>
+    <footer class="footer bg-black text-base-content text-white p-10">
+        <aside>
 
-    </footer>
-
+            <div class="">
+                <h2 class="text-xl font-extrabold mb-4">Get In Touch</h2>
+                <p class="w-[320px] mb-5">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                 <p> <i class="fa-regular fa-envelope mb-4"></i> hockeys@support.com</p>
+                 <p> <i class="fa-solid fa-phone"></i> (+62) 123-321-543</p>
+            </div>
+        </aside>
+        <nav>
+          <h6 class="footer-title">Services</h6>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Company</h6>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Legal</h6>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+      </footer>
 </body>
-
 </html>
